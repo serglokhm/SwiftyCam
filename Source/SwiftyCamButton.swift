@@ -20,7 +20,7 @@ import UIKit
 
 /// Delegate for SwiftyCamButton
 
-public protocol SwiftyCamButtonDelegate: class {
+@objc public protocol SwiftyCamButtonDelegate: class {
     
     /// Called when UITapGestureRecognizer begins
     
@@ -48,7 +48,7 @@ public protocol SwiftyCamButtonDelegate: class {
 
 /// UIButton Subclass for Capturing Photo and Video with SwiftyCamViewController
 
-open class SwiftyCamButton: UIButton {
+@objc open class SwiftyCamButton: UIButton {
     
     /// Delegate variable
     
